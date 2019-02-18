@@ -108,7 +108,7 @@ public class GameServer extends Server{
         obstacles.set(i, updatedValues);
       } else 
       obstacles.remove(i);
-      //holt höhe und Breite je nach Typ des Hindernisses
+      //holt hhe und Breite je nach Typ des Hindernisses
       if(type == 1){
         height = gui.rock1.getHeight();
         width = gui.rock1.getWidth();
@@ -129,12 +129,12 @@ public class GameServer extends Server{
     }
 //    if (send%5==0) {
 //      sendToAll(data);
-    }  end of if
+//    }  end of if
 //    send++;
   }
   
   /*
-  Hindernis wird als String übergeben 
+  Hindernis wird als String bergeben 
   
   */
   public String getYCoord(String s){
